@@ -1,0 +1,18 @@
+<ui:UXML xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    engine="UnityEngine.UIElements"
+    editor="UnityEditor.UIElements"
+    editor-extension-mode="False">
+    <Style src="PetiteScrollList.uss" />
+    <ui:VisualElement name="psl-container" class="psl-container" focusable="true">
+        <ui:VisualElement name="psl-list-viewport" class="psl-list-viewport" focusable="true">
+            <ui:VisualElement name="psl-list" class="psl-list psl-smooth-scroll" focusable="true"></ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="psl-bar-container" class="psl-bar-container">
+            <ui:VisualElement name="psl-bar-track" class="psl-bar-track">
+                <ui:VisualElement name="psl-bar" class="psl-bar" focusable="true" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

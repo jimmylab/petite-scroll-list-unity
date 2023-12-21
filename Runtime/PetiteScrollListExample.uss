@@ -1,0 +1,54 @@
+#container {
+    font-size: 32px;
+    flex-direction: column;
+    flex-grow: 1;
+}
+#controls {
+    flex-direction: row;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+Button {
+    min-width: 200px;
+    height: 70px;
+    border-radius: 10px;
+}
+TextField {
+    width: 320px;
+    flex-shrink: 1;
+}
+IntegerField {
+    width: 80px;
+}
+.unity-text-field__input, .unity-integer-field__input {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.flex-row {
+    flex-direction: row;
+}
+.lists-container {
+    flex-direction: row;
+    flex-grow: 1;
+}
+#my-scroll-list {
+    font-size: 40px;
+    background-color: rgba(16, 6, 129, 0.6);
+    border-radius: 24px;
+    --psl-bar-width: 12px;
+    --psl-bar-radius: 6px;  /* no lower than (bar-width / 2)! */
+    --psl-bar-track-color: black;
+    --psl-bar-color: #999;
+    --psl-bar-color-hover: #ccc;
+    --psl-bar-color-active: #fff;
+    --psl-bar-min-length: 50px;
+}
+#my-scroll-list .psl-list {
+    padding: 24px 8px 16px 24px;
+}
+#clickable-label {
+    font-size: 150%;
+    padding: 20px 0;
+    background-color: lightsteelblue;
+    -unity-text-align: middle-center;
+}
